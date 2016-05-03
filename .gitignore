@@ -1,0 +1,14 @@
+/webroot/js/node_modules
+/webroot/js/bower_components
+/vendor/*
+/config/app.php
+/tmp/*
+/node_modules
+/logs/*
+/.idea
+/webroot/js/services/serverUrl.js
+/webroot/js/services/services.js
+/nbproject/private/
+/webroot/.htaccess
+/.htaccess
+.htaccess

@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+#chat {
+color:#000;
+font-size:13px;
+height:70.8%;
+}
+
+.titre h1::before {
+    background: rgba(0, 0, 0, 0) url("../img/menu_blocs/left-corner-block.png") no-repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    float: left;
+    height: 2.438rem;
+    width: 0.5rem;
+}
+.titre h1::after {
+    background: rgba(0, 0, 0, 0) url("../img/menu_blocs/right-corner-block.png") no-repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    float: right;
+    height: 2.438rem;
+    width: 0.5rem;
+}
+
+.titre h1 {
+    background-image: url("../img/menu_blocs/middle-corner-block.png");
+    background-repeat: repeat-x;
+    position: relative;
+    text-align: right;
+	z-index:999
+}
+
+.titre span::before {
+background-image:url(../img/chat/speech.png);
+background-repeat:no-repeat;
+content:" ";
+width:21px;
+height:15px;
+display:inline-block;
+margin:0 8px 0 0;
+}
+
+.titre span {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
+
+#chatarea {
+background:#fff url(../img/chat/chat.png) repeat-y scroll 0 0;
+height:93.5%;
+width:98%;
+margin:auto;
+}
+
+.messages {
+height:79%;
+list-style-type:none;
+overflow-y:auto;
+padding-left:3.18rem;
+}
+
+.message {
+background-color:#ddd;
+box-sizing:border-box;
+font-family:Roboto,arial;
+position:relative;
+text-align:justify;
+margin:.125rem 0 0;
+padding:.4rem;
+}
+
+.message:nth-child(2n) {
+background-color:#f0f0f0;
+}
+
+.message.quotemessage {
+background-color:#8c2f2f;
+color:#FFF;
+}
+
+.message.yourmessage {
+background-color:#caacab;
+}
+
+.time {
+background-color:#FFF;
+border:1px solid #b3b0b0;
+color:#50090f;
+font-size:.625rem;
+height:22px;
+left:-3.18rem;
+position:absolute;
+text-align:center;
+top:0;
+width:2.813rem;
+padding:.1rem 0 0;
+}
+
+.whisperbutton {
+padding-bottom:.3125rem;
+padding-right:.3125rem;
+margin:3px 0 0;
+}
+
+.blockbutton {
+padding-bottom:.3125rem;
+}
+
+.pseudo::after {
+color:#000;
+content:":";
+}
+
+.quotemessage > .pseudo::after {
+color:#FFF;
+}
+
+#footerchat {bottom: 0;margin:1%;}
+
+#sendmessage {
+background:#fff url(../img/chat/separation-message.jpg) no-repeat right 3.188rem center;
+border:.0625rem solid #8f9195;
+box-sizing:border-box;
+height:3.5rem;
+resize:none;
+width:100%;
+padding:.5rem;
+}
+
+#sendmessage_tint {
+background:#d8d7d7;
+border:.0625rem solid #8f9195;
+box-sizing:border-box;
+height:3.5rem;
+width:100%;
+padding:.5rem;
+}
+
+#smileys {
+    position: absolute;
+    right: 1.1rem;
+    top: 1rem;
+}
+
+#chatsettings, #chatmessage {
+    background: #8c2f2f none repeat 0 0;
+    padding: 0.8rem 0.4rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+#sendmessagebutton {
+    position: absolute;
+        right: 0;
+margin:5px 10px 0 0;
+}
+
+
+#chatParameters, #chatWhisp {
+    position: absolute;
+       bottom: 17.25rem;
+    height:12.5rem;
+    width:18.75rem;
+    border:solid 0.0625rem grey;
+    background:white;
+    padding:0.625rem;
+    margin-left:0.25rem;
+}
+
+.chatParameter, .whisperSummary{
+    display:flex;
+    padding:0.625rem;
+}
+
+.chatParameter {
+    line-height:1.375rem;
+}
+
+#colorChoice {
+    width:6.25rem;
+    right:-0.625rem;
+    margin-left:1.25rem;
+}
+
+#blockedUsers {
+    margin-left:0.625rem;
+    margin-right:0.625rem;
+}
+
+.whisperSummary {
+	border: dotted 0.0625rem grey;
+	margin: 0.3rem 0;
+	cursor: pointer;
+}
+
+.whisperSummary:hover {
+	background-color: #DEB887;
+}
+
+.whisperSummary .pseudo {
+	width:15%;
+	height:1rem;
+}
+
+.deleteWhisp {
+	margin: -0.3125rem 0;
+	height:1.625rem;
+	cursor: pointer;
+}
+
+#whisperList {
+	overflow-y: auto;
+	height: calc(100% - 1.875rem);
+}
+
+.lastMessage {
+	width:80%;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#chatPM {
+    height:22.5rem;
+    width:18.75rem;
+	position: absolute;
+    background-color: #d9d8d8;
+    background-image: url("../img/chat/chat.png");
+    background-repeat: repeat-y;
+	bottom:0;
+}
+
+#chatPM h2 {
+    background-color: #d9d8d8;
+    padding: 0.625rem;
+}
+
+#chatPM hr  {
+	margin: 0 0.625rem;
+}
+
+.close {
+	float:right;
+	width:1.15rem;
+	cursor: pointer;
+}
+
+#chatPM .close {
+	margin: 0.625rem 0.625rem 0 0;
+}
+
+#chatAreaPM {
+	height: calc(100% - 3.5rem);
+}

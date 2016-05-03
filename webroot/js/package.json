@@ -1,0 +1,17 @@
+{
+  "name": "dependencies",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "~1.4.4",
+    "lodash": "~4.3.0",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Maurer",
+  "license": "BSD-2-Clause"
+}
