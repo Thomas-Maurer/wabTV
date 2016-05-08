@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
-    RewriteBase /wabtv/www/WabTV/
     Rewriterule ^phpmyadmin/.*$ - [PT]
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]

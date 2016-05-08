@@ -42,9 +42,9 @@ use Cake\Routing\Router;
 Router::defaultRouteClass('DashedRoute');
 
 Router::prefix('admin', function ($routes) {
-    // Parce que vous êtes dans le scope admin, vous n'avez pas besoin
-    // d'inclure le prefix /admin ou l'élément de route admin.
-    $routes->connect('/', ['controller' => 'Admin', 'action' => 'test']);
+    // Parce que vous ï¿½tes dans le scope admin, vous n'avez pas besoin
+    // d'inclure le prefix /admin ou l'ï¿½lï¿½ment de route admin.
+    $routes->connect('/', ['controller' => 'Admin', 'action' => 'index']);
     $routes->fallbacks('DashedRoute');
 });
 
@@ -55,7 +55,8 @@ Router::scope('/', function ($routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+    $routes->connect('/', ['controller' => 'Home', 'action' => 'home']);
+    $routes->connect('getprog', ['controller' => 'Home', 'action' => 'getprog']);
 
     /**
      * ...and connect the rest of 'Pages' controller's URLs.

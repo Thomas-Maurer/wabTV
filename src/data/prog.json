@@ -1,0 +1,121 @@
+{
+  "lundi": [
+    {
+      "streamer": "Kyzano",
+      "title": "Titre évenement",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "mardi": [
+    {
+      "streamer": "Kyzano",
+      "title": "Titre évenement",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "mercredi": [
+    {
+      "streamer": "Kyzano",
+      "title": "Titre évenement",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "jeudi": [
+    {
+      "streamer": "",
+      "title": "",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Linyuu",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Linyuu",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "vendredi": [
+    {
+      "streamer": "",
+      "title": "",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Linyuu",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Linyuu",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "samedi": [
+    {
+      "streamer": "Kyzano",
+      "title": "Titre évenement",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ],
+  "dimanche": [
+    {
+      "streamer": "Kyzano",
+      "title": "Titre évenement",
+      "horaire": "17h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "20h00"
+    },
+    {
+      "streamer": "Boblegob",
+      "title": "Titre évenement",
+      "horaire": "00h00"
+    }
+  ]
+}

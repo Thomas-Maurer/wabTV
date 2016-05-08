@@ -59,7 +59,7 @@ class AppController extends Controller
     }
 
     public function beforeFilter(Event $event) {
-        $this->Auth->allow(['index', 'view', 'display']);
+        $this->Auth->allow(['view', 'display', 'home', 'getprog']);
         $this->set('loggedIn', $this->Auth->user('id'));
     }
     

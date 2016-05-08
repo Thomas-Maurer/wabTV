@@ -31,7 +31,6 @@ font-family:Roboto,sans-serif;
 font-style:normal;
 font-weight:400;
 height:100%;
-overflow:hidden;
 margin:0 auto;
 padding:5px;
 }
@@ -833,13 +832,14 @@ right:10%;
 top:25%;
 }
 
-footer {    
-	margin: 0 0 0.2% 0;
+footer {
+    margin: 0 auto;
     position: absolute;
-    bottom: 0;
     height: 5%;
     left: 0;
+    text-align: center;
     width: 16.8%;
+    right: 0;
 }
 
 footer p{    
