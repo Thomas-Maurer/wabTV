@@ -71,7 +71,10 @@ $this->set('title', 'We are bob');
             <a data-title='Team'>Utilisateurs</a>
           </li>
           <li>
-            <a data-title='Diary'>Timeline</a>
+            <?php echo $this->Html->link(
+              'Timeline',
+              ['controller' => 'Timeline', 'action' => 'controlPanel']
+            ); ?>
           </li>
           <li>
            <?php echo $this->Html->link(
@@ -86,7 +89,7 @@ $this->set('title', 'We are bob');
       </nav>
     </header>
       <div class='title'>
-        <h2>Projects</h2>
+        <h2>Panel Admin</h2>
         <a href='#' title='Profil'>
           <?= $username ?>
         </a>

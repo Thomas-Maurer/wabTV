@@ -13,6 +13,7 @@ use App\Model\Entity\MutedUser;
 use Cake\Event\Event;
 use App\Model\Entity\User;
 use Cake\ORM\TableRegistry;
+use Cake\Filesystem\File;
 
 class TimelineController extends AppController
 {
@@ -23,6 +24,8 @@ class TimelineController extends AppController
 
 
     public function controlPanel () {
-
+        $file = new File(APP . "data" . DS . "prog.json");
+        $programmation = $file->read(true, 'r');
+        
     }
 }

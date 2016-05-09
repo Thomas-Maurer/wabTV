@@ -42,6 +42,7 @@ class UsersController extends AppController {
     }
 
     public function login() {
+        $this->viewBuilder()->layout('admin');
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {

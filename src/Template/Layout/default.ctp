@@ -42,7 +42,7 @@
     <?= $this->Html->script('bower_components/angular-route/angular-route.min'); ?>
     <?= $this->Html->script('bower_components/jquery/dist/jquery.min'); ?>
     <?= $this->Html->script('bower_components/jquery-ui/jquery-ui.min'); ?>
-    <?= $this->Html->script('node_modules/socket.io-client/socket.io.js'); ?>
+    <?= $this->Html->script('node_modules/socket.io/node_modules/socket.io-client/socket.io.js'); ?>
     <?= $this->Html->script('node_modules/underscore/underscore.js'); ?>
     <?= $this->Html->script('bower_components/angular-socket-io/socket.js'); ?>
     <?= $this->Html->script('bootstrap-colorpicker-module.min'); ?>	
