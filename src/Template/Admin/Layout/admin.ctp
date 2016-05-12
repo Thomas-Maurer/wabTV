@@ -31,12 +31,16 @@ $this->set('title', 'We are bob');
   <?= $this->Html->css('reset.css') ?> <!-- Reset style -->
   <?= $this->Html->css('colorpicker.min.css') ?>
   <?= $this->Html->css('admin.css') ?>
+  <?= $this->Html->css('angular-material.min.css') ?>
 
   <?= $this->fetch('meta') ?>
   <?= $this->fetch('css') ?>
   <?= $this->fetch('script') ?>
   <?= $this->Html->script('bower_components/angular/angular'); ?>
   <?= $this->Html->script('bower_components/angular-route/angular-route.min'); ?>
+  <?= $this->Html->script('bower_components/angular-animate/angular-animate.min'); ?>
+  <?= $this->Html->script('bower_components/angular-aria/angular-aria.min'); ?>
+  <?= $this->Html->script('bower_components/angular-material/angular-material.min'); ?>
   <?= $this->Html->script('bower_components/jquery/dist/jquery.min'); ?>
   <?= $this->Html->script('bower_components/jquery-ui/jquery-ui.min'); ?>
   <?= $this->Html->script('node_modules/socket.io/node_modules/socket.io-client/socket.io.js'); ?>
@@ -49,6 +53,7 @@ $this->set('title', 'We are bob');
   <?= $this->Html->script('services/services'); ?>
   <?= $this->Html->script('services/serverUrl'); ?>
   <?= $this->Html->script('controllers/adminController'); ?>
+  <?= $this->Html->script('controllers/adminTimelineController'); ?>
 
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

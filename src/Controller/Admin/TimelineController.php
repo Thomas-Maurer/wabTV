@@ -28,4 +28,18 @@ class TimelineController extends AppController
         $programmation = $file->read(true, 'r');
         
     }
+
+    public function updateProg() {
+        $file = new File(APP . "data" . DS . "prog.json");
+
+        $programmation = json_encode($this->request->input('json_decode'), JSON_PRETTY_PRINT);
+
+        $file->write($programmation);
+        $file->close();
+        $this->autoRender = false;
+        $this->response->type('json');
+
+        $this->response->body('{"success": true}');
+
+    }
 }

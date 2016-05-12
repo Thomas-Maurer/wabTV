@@ -45,6 +45,7 @@ Router::prefix('admin', function ($routes) {
     // Parce que vous �tes dans le scope admin, vous n'avez pas besoin
     // d'inclure le prefix /admin ou l'�l�ment de route admin.
     $routes->connect('/', ['controller' => 'Admin', 'action' => 'index']);
+    $routes->connect('updateProg', ['controller' => 'Timeline', 'action' => 'updateProg']);
     $routes->fallbacks('DashedRoute');
 });
 
